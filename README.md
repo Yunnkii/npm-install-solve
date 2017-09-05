@@ -2,7 +2,7 @@
 
 
 
-#### 修改安装源
+#### 1.修改安装源
 
 ```
 npm config set registry https://registry.npm.taobao.org
@@ -15,7 +15,7 @@ npm info underscore (配置成功会有很多提示信息)
 
 
 
-#### 安装cnpm 命令替代npm
+#### 2.安装cnpm 命令替代npm
 
 ```
 npm install -g cnpm --registry=https://registry.npm.taobao.org
@@ -27,7 +27,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 
 
-#### 使用 cnpm 命令安装依赖
+#### 3.使用 cnpm 命令安装依赖
 
 ```
 cnpm install eventproxy --save
